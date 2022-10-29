@@ -1,0 +1,48 @@
+2,000,000,000
+O0
+real    2m22.155s - cast to float and multiply
+real    2m16.838s - avoid cast, multiply
+real    2m41.892s - precalculated
+real    2m15.233s - control group
+real    1m58.730s - SIMD inline assembly
+real    2m01.815s - SIMD compiler intrinsic
+---------------------------------------------------------
+2,000,000,000
+O2
+real    1m52.062s
+real    1m50.814s
+real    2m08.255s
+real    1m48.976s
+real    1m49.036s
+real    1m47.899s
+---------------------------------------------------------
+2,000,000,000
+O3
+real    1m51.938s
+real    1m49.953s
+real    2m12.612s
+real    1m48.703s
+real    1m48.483s
+real    1m48.074s
+PORTUGAL
+---------------------------------------------------------
+2,000,000,000
+O0
+real    1m7.991s
+real    1m6.717s
+real    1m2.132s
+real    1m2.503s
+---------------------------------------------------------
+2,000,000,000
+O2
+real    0m48.340s
+real    0m47.498s
+real    0m49.030s
+real    0m47.380s
+---------------------------------------------------------
+2,000,000,000
+O3
+real    0m48.755s
+real    0m47.532s
+real    0m48.972s
+real    0m47.468s
